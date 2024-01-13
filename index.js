@@ -3,12 +3,12 @@
 let si = document.getElementById("si")
 let no = document.getElementById("no")
 let body = document.getElementById("body")
-let movete =  Math.floor(Math.random() * 600);
+let movete =  Math.floor(Math.random() * 800);
 let movete1 =  Math.floor(Math.random() * 60);
 let movete2 =  Math.floor(Math.random() * 200);
 let movete3 =   Math.floor(Math.random() * 60);
 let izder = Math.floor(Math.random() * 2);
-let arabj =  Math.floor(Math.random() * 2);
+let arabj =  Math.floor(Math.random() * 3);
 si.addEventListener("click",sii)
 
  function sii(){
@@ -20,7 +20,7 @@ si.addEventListener("click",sii)
 
 function noo(){
     
-    if(arabj == 0){
+    if(arabj != 3){
         no.style.top = movete +`px`
         no.style.bottom = null
     }else{
@@ -38,7 +38,7 @@ function noo(){
     
     
     
-    movete =  Math.floor(Math.random() * 600);
+    movete =  Math.floor(Math.random() * 800);
     movete1 =  Math.floor(Math.random() * 60);
     movete2 =  Math.floor(Math.random() * 200);
     movete3 =   Math.floor(Math.random() * 60);
