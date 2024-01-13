@@ -14,7 +14,7 @@ si.addEventListener("click",sii)
  function sii(){
     body.innerHTML = `<div class="row justify-content-center m-5 ">
     <h1 class="col-12 amo text-center">Yo tambien te amo golda</h1>
-    <img class="col-12 col-md-8 m-5"  src="./img/gato_amor.jpg" alt="">
+    <img class="col-12 col-lg-8 m-5 img"  src="./img/gato_amor.jpg" alt="">
 </div>`
 }
 
