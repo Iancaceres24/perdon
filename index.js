@@ -3,9 +3,9 @@
 let si = document.getElementById("si")
 let no = document.getElementById("no")
 let body = document.getElementById("body")
-let movete =  Math.floor(Math.random() * 1000);
+let movete =  Math.floor(Math.random() * 1200);
 let movete1 =  Math.floor(Math.random() * 60);
-let movete2 =  Math.floor(Math.random() * 400);
+let movete2 =  Math.floor(Math.random() * 600);
 let movete3 =   Math.floor(Math.random() * 60);
 let izder = Math.floor(Math.random() * 2);
 let arabj =  Math.floor(Math.random() * 3);
@@ -38,9 +38,9 @@ function noo(){
     
     
     
-    movete =  Math.floor(Math.random() * 1000);
+    movete =  Math.floor(Math.random() * 1200);
     movete1 =  Math.floor(Math.random() * 60);
-    movete2 =  Math.floor(Math.random() * 400);
+    movete2 =  Math.floor(Math.random() * 600);
     movete3 =   Math.floor(Math.random() * 60);
     izder = Math.floor(Math.random() * 2);
     arabj =  Math.floor(Math.random() * 2);
